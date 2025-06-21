@@ -5,6 +5,7 @@ void main() {
 }
 
 class CustomerCenterApp extends StatelessWidget {
+  //StatelessWidget 이건 상테를 못바꾼다
   const CustomerCenterApp({super.key});
 
   @override
@@ -17,7 +18,9 @@ class CustomerCenterApp extends StatelessWidget {
   }
 }
 
+//주석추가
 class CustomerCenterPage extends StatefulWidget {
+  // 이건 상태를 바꿀수있다.
   @override
   State<CustomerCenterPage> createState() => _CustomerCenterPageState();
 }
